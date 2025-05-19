@@ -1,0 +1,79 @@
+@media(max-width: 750px) {
+    main {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .cabecalho {
+        max-height: 200px;
+        padding: 0;
+    }
+
+    .cabecalho .titulo {
+        font-size: 25px;
+    }
+
+    .listagem {
+        margin-top: 40px;
+    }
+
+    .icones .icone img {
+        max-width: 85px;
+    }
+}
+
+@media(max-width:450px) {
+    .listagem {
+        max-height: 340px;
+        max-width: 350px;
+        margin: 20px;
+    }
+
+    .icone {
+        padding-bottom: 5px;
+    }
+
+    .rodape {
+        max-height: 85px;
+    }
+}
+
+@media (max-width:400px) {
+    .lista-de-jogos {
+        max-width: 350px;
+        max-height: 360px;
+    }
+
+    .cartao .analise {
+        height: 80px;
+    }
+
+    .listagem {
+        max-width: 350px;
+        max-height: 300px;
+    }
+
+    .icone {
+        padding: 7px 5px;
+    }
+
+    .icone img {
+        max-width: 80px;
+    }
+}
+
+
+/* 
+
+
+  
+
+
+    
+
+    
+
+    .rodape {
+        max-height: 90px;
+    }
+}  */
