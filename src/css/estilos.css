@@ -1,3 +1,7 @@
+html {
+    scrollbar-color: #b5b5b5 white;
+}
+
 body {
     font-family: 'Revil', sans-serif;
     background-color: #82bfd2;
@@ -79,25 +83,10 @@ main {
     padding: 0 10px;
     line-height: 1.5;
     letter-spacing: 1.5px;
+    overflow: auto;
     overflow-y: scroll;
     max-height: 95px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: #8b0000;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #8b0000;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #8b0000;
+    scrollbar-color: #8b0000 grey ;
 }
 
 .listagem {
@@ -133,7 +122,7 @@ body::-webkit-scrollbar-track {
 }
 
 .rodape {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     display: flex;

@@ -22,6 +22,12 @@
     }
 }
 
+@media(max-width:480px) {
+    body {
+        overflow: auto;
+    }
+}
+
 @media(max-width:450px) {
     .listagem {
         max-height: 340px;
