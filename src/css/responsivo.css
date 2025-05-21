@@ -29,6 +29,15 @@
 }
 
 @media(max-width:450px) {
+    .lista-de-jogos {
+        max-width: 360px;
+        max-height: 360px;
+    }
+
+    .cartoes .cartao .analise {
+        max-height: 80px;
+    }
+
     .listagem {
         max-height: 340px;
         max-width: 350px;
@@ -45,10 +54,7 @@
 }
 
 @media (max-width:400px) {
-    .lista-de-jogos {
-        max-width: 350px;
-        max-height: 360px;
-    }
+    
 
     .cartao .analise {
         height: 80px;
