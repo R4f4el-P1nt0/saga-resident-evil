@@ -1,91 +1,71 @@
-@media(max-width: 750px) {
-    main {
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
+@media(max-width:480px) {
     .cabecalho {
-        max-height: 200px;
         padding: 0;
+    }
+    .cabecalho img {
+        width: 70px;
     }
 
     .cabecalho .titulo {
+        font-size: 20px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .lista-de-jogos {
+        max-width: 250px;
+        margin-right: 15px;
+        max-height: 250px;
+    }
+
+    .cartoes .cartao .nome {
         font-size: 25px;
     }
 
-    .listagem {
-        margin-top: 40px;
+    .cartoes .cartao .imagem-cartao {
+        padding: 0;
+        max-width: 220px;
     }
 
-    .icones .icone img {
-        max-width: 85px;
-    }
-}
-
-@media(max-width:480px) {
-    body {
-        overflow: auto;
-    }
-}
-
-@media(max-width:450px) {
-    .lista-de-jogos {
-        max-width: 360px;
-        max-height: 360px;
+    .cartoes .cartao h3 {
+        font-size: 15px;
+        padding-top: 5px;
     }
 
     .cartoes .cartao .analise {
-        max-height: 80px;
+        max-height: 55px;
+        margin: 5px;
+        font-size: 12px;
     }
 
     .listagem {
-        max-height: 340px;
-        max-width: 350px;
-        margin: 20px;
+        max-width: 340px;
+        max-height: 240px;
+        margin: 10px 20px 0 0;
     }
 
-    .icone {
-        padding-bottom: 5px;
+    .listagem ul {
+        justify-content: space-around;
+        max-height: 230px;
+    }
+
+    .listagem .icone {
+        padding: 2px 10px;
+    }
+
+    .listagem .icone img {
+        max-width: 70px;
     }
 
     .rodape {
-        max-height: 85px;
+        max-height: 50px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .rodape img {
+        max-width: 150px;
     }
 }
-
-@media (max-width:400px) {
-    
-
-    .cartao .analise {
-        height: 80px;
-    }
-
-    .listagem {
-        max-width: 350px;
-        max-height: 300px;
-    }
-
-    .icone {
-        padding: 7px 5px;
-    }
-
-    .icone img {
-        max-width: 80px;
-    }
-}
-
-
-/* 
-
-
-  
-
-
-    
-
-    
-
-    .rodape {
-        max-height: 90px;
-    }
-}  */
